@@ -38,6 +38,7 @@ function setup() {
 
 function draw() {
   background("blue");  
+  Engine.update(engine) 
   ground.display()
   stand.display()
   block1.display()
